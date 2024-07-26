@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+
+@layer utilities {
+    .spot-1 {
+      @apply absolute w-64 h-64 rounded-full bg-[#7248EA] opacity-50 -top-20 -left-20 blur-3xl;
+    }
+    .spot-2 {
+      @apply absolute w-64 h-48 rounded-full bg-[#E853F4] opacity-50 top-1/2 -right-24 blur-3xl;
+    }
+    .spot-3 {
+      @apply absolute w-80 h-80 rounded-full bg-[#7248EA] opacity-50 -bottom-44 left-1/4 blur-3xl;
+    }
+    /* .spot-4 {
+      @apply absolute w-48 h-48 rounded-full bg-[#E853F4] opacity-50 top-1/4 right-1/4 blur-3xl;
+    } */
+  }
